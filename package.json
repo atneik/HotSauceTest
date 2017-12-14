@@ -1,0 +1,21 @@
+{
+  "name": "hot-sauce-test",
+  "version": "1.0.0",
+  "description": "A test for canidates we want to hire.",
+  "scripts": {
+    "start": "node build/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabricteam/HotSauceTest.git"
+  },
+  "author": "John Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabricteam/HotSauceTest/issues"
+  },
+  "homepage": "https://github.com/fabricteam/HotSauceTest#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
