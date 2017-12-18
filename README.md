@@ -13,11 +13,11 @@ We would like if you would stick to these technologies only. We understand that 
 **Each hot sauce when clicked will take you to its respective details page.**
 This is pretty self-explanatory but bonus points if you load the details of a hot sauce on the same page without traveling to a new html file/page.
 
-**The focus is on building and not redesigning the mockups**
-We know the design is not the best design in any universe but we would like if you kept the same overall look and feel in order to complete the project. Minor cosmetic tweaks and extra curricular activities are fine **but** we want to ensure that you don't spend most of your time here. This test is designed to see how you go about building a functioning prototype from a non-functional flat design. 
-
 **The grid and details page must be backed by real data sourced from the hotsauce.json file provided.**
 Let's load this file via an AJAX request at runtime, this could be bundled with webpack or something similar but more than often in the real world we load data from external sources that are not immediately available.
+
+**Able to remove hot sauce from the grid page**
+Upon hover over a hot sauce on the grid page, a close button should appear on the top right corner of the tile. When clicked, this button will remove that hot sauce from the view. No need to update the original data source. You can use a CSS solution for the cross/close button. Bonus points if this feature is keyboard accessible.
 
 ## Setup
 This project requires Node JS installed on your system and after to run `npm install` in the project. We setup a super thin build script that allows you to view your project by running `npm run-script start` in the root directory.
@@ -30,6 +30,3 @@ If you are getting this test before your in person interview, we will review it 
 If you are getting this afterwards then we ask you zip up the project and send it back for review. After reviewing we will send our feedback via email.
 
 **Thank you for your interest in our team and good luck! :D**
-
-
-
